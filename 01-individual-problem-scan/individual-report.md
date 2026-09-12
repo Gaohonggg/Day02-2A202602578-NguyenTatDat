@@ -316,6 +316,6 @@ không cần thiết và làm chậm thời điểm bắt đầu implementation?
 ```
 
 ### Self-check nộp phần 01
-- [ ] Có 5+ problems + top 3 Cards đủ field
-- [ ] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
-- [ ] Đã chọn 1 card pitch + câu hỏi challenge
+- [x] Có 5+ problems + top 3 Cards đủ field
+- [x] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
+- [x] Đã chọn 1 card pitch + câu hỏi challenge
