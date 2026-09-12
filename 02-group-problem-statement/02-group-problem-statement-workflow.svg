@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1900" viewBox="0 0 1500 1900">
+  <defs>
+    <style>
+      .title { font: 700 38px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 22px Arial, Helvetica, sans-serif; fill: #475569; }
+      .section-title { font: 700 29px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .section-meta { font: 600 20px Arial, Helvetica, sans-serif; fill: #475569; }
+      .step { font: 700 20px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .body { font: 400 18px Arial, Helvetica, sans-serif; fill: #334155; }
+      .small { font: 600 16px Arial, Helvetica, sans-serif; fill: #64748b; }
+      .legend { font: 600 17px Arial, Helvetica, sans-serif; fill: #334155; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="1500" height="1900" fill="#f1f5f9"/>
+  <text x="55" y="62" class="title">WORKFLOW THEO DÕI DEADLINE HỌC TẬP ĐA KÊNH</text>
+  <text x="55" y="98" class="subtitle">Current state → Future state | Rule + AI + Human-in-the-loop</text>
+
+  <!-- CURRENT STATE -->
+  <rect x="40" y="135" width="1420" height="675" rx="26" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="185" class="section-title">CURRENT STATE — 7 bước</text>
+  <text x="70" y="220" class="section-meta">3–4 nguồn • khoảng 10 phút/ngày • phụ thuộc kiểm tra và cập nhật thủ công</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="270" width="300" height="190" rx="18" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="420" y="270" width="300" height="190" rx="18" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="770" y="270" width="300" height="190" rx="18" fill="#fee2e2" stroke="#dc2626" stroke-width="4"/>
+    <rect x="1120" y="270" width="300" height="190" rx="18" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="1120" y="535" width="300" height="190" rx="18" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="770" y="535" width="300" height="190" rx="18" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="420" y="535" width="300" height="190" rx="18" fill="#ffedd5" stroke="#ea580c" stroke-width="3"/>
+  </g>
+
+  <g stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <line x1="370" y1="365" x2="412" y2="365"/>
+    <line x1="720" y1="365" x2="762" y2="365"/>
+    <line x1="1070" y1="365" x2="1112" y2="365"/>
+    <line x1="1270" y1="460" x2="1270" y2="527"/>
+    <line x1="1120" y1="630" x2="1078" y2="630"/>
+    <line x1="770" y1="630" x2="728" y2="630"/>
+  </g>
+
+  <text x="94" y="310" class="step">1. NHẬN THÔNG BÁO</text>
+  <text x="94" y="348" class="body"><tspan x="94">LMS, email, chat, giảng viên</tspan><tspan x="94" dy="26">hoặc tài liệu môn học</tspan></text>
+  <text x="94" y="425" class="small">Theo sự kiện</text>
+
+  <text x="444" y="310" class="step">2. ĐỌC &amp; TRÍCH XUẤT</text>
+  <text x="444" y="348" class="body"><tspan x="444">Tên việc, môn, deadline</tspan><tspan x="444" dy="26">và yêu cầu cần làm</tspan></text>
+  <text x="444" y="425" class="small">SV • 2–3'/thông báo*</text>
+
+  <text x="794" y="310" class="step" fill="#991b1b">3. ĐỐI CHIẾU</text>
+  <text x="794" y="348" class="body"><tspan x="794">Tìm phiên bản mới nhất</tspan><tspan x="794" dy="26">giữa nhiều nguồn</tspan></text>
+  <text x="794" y="402" class="small" fill="#b91c1c">BOTTLENECK</text>
+  <text x="794" y="430" class="small">SV • 3–5'/lần đổi*</text>
+
+  <text x="1144" y="310" class="step">4. GHI DEADLINE</text>
+  <text x="1144" y="348" class="body"><tspan x="1144">Note / calendar / todo</tspan><tspan x="1144" dy="26">hoặc cố ghi nhớ</tspan></text>
+  <text x="1144" y="425" class="small">SV • 1–2'/deadline*</text>
+
+  <text x="1144" y="575" class="step">5. TỰ CẬP NHẬT</text>
+  <text x="1144" y="613" class="body"><tspan x="1144">Tìm đúng mục cũ và sửa</tspan><tspan x="1144" dy="26">lại thời hạn đã lưu</tspan></text>
+  <text x="1144" y="690" class="small">SV • 1–2'/lần đổi*</text>
+
+  <text x="794" y="575" class="step">6. RÀ SOÁT LẠI</text>
+  <text x="794" y="613" class="body"><tspan x="794">Mở calendar, LMS, email</tspan><tspan x="794" dy="26">và nhóm chat</tspan></text>
+  <text x="794" y="690" class="small">SV • khoảng 10'/ngày</text>
+
+  <text x="444" y="575" class="step" fill="#9a3412">7. PHÁT HIỆN MUỘN</text>
+  <text x="444" y="613" class="body"><tspan x="444">Deadline đã gần hạn</tspan><tspan x="444" dy="26">→ làm / ôn tập gấp</tspan></text>
+  <text x="444" y="690" class="small" fill="#c2410c">HẬU QUẢ</text>
+
+  <!-- FUTURE STATE -->
+  <rect x="40" y="850" width="1420" height="790" rx="26" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="900" class="section-title">FUTURE STATE — 6 bước</text>
+  <text x="70" y="935" class="section-meta">Mục tiêu ≤ 3 phút/ngày • AI chỉ đề xuất • sinh viên xác nhận trước khi ghi lịch</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="1065" width="300" height="190" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <rect x="420" y="985" width="300" height="160" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <rect x="420" y="1175" width="300" height="160" rx="18" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/>
+    <rect x="770" y="1065" width="300" height="190" rx="18" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+    <rect x="1120" y="1065" width="300" height="190" rx="18" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+    <rect x="770" y="1375" width="300" height="190" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="5"/>
+    <rect x="1120" y="1375" width="300" height="190" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  </g>
+
+  <g stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M 370 1125 C 392 1125, 392 1065, 412 1065"/>
+    <path d="M 370 1195 C 392 1195, 392 1255, 412 1255"/>
+    <path d="M 720 1065 C 742 1065, 742 1125, 762 1125"/>
+    <path d="M 720 1255 C 742 1255, 742 1195, 762 1195"/>
+    <line x1="1070" y1="1160" x2="1112" y2="1160"/>
+    <path d="M 1270 1255 L 1270 1325 L 920 1325 L 920 1367"/>
+    <line x1="1070" y1="1470" x2="1112" y2="1470"/>
+  </g>
+
+  <text x="94" y="1105" class="step">1. THU NHẬN</text>
+  <text x="94" y="1143" class="body"><tspan x="94">Thông báo từ nguồn</tspan><tspan x="94" dy="26">được người dùng cấp quyền</tspan></text>
+  <text x="94" y="1220" class="small">RULE / CONNECTOR</text>
+
+  <text x="444" y="1025" class="step">2A. IMPORT CÓ CẤU TRÚC</text>
+  <text x="444" y="1065" class="body">LMS / calendar feed</text>
+  <text x="444" y="1110" class="small">RULE • &lt;0,5'/batch*</text>
+
+  <text x="444" y="1215" class="step" fill="#5b21b6">2B. AI TRÍCH XUẤT</text>
+  <text x="444" y="1255" class="body">Email / nhóm chat tự do</text>
+  <text x="444" y="1300" class="small">AI • &lt;1'/batch*</text>
+
+  <text x="794" y="1105" class="step">3. CHUẨN HÓA</text>
+  <text x="794" y="1143" class="body"><tspan x="794">Cùng schema + link nguồn</tspan><tspan x="794" dy="26">+ timestamp thông báo</tspan></text>
+  <text x="794" y="1220" class="small">WORKFLOW</text>
+
+  <text x="1144" y="1105" class="step">4. SO KHỚP</text>
+  <text x="1144" y="1143" class="body"><tspan x="1144">Gộp trùng, phát hiện</tspan><tspan x="1144" dy="26">thay đổi / xung đột</tspan></text>
+  <text x="1144" y="1220" class="small">RULE + AI</text>
+
+  <text x="794" y="1415" class="step" fill="#166534">5. REVIEW &amp; XÁC NHẬN</text>
+  <text x="794" y="1453" class="body"><tspan x="794">Xem đoạn trích, nguồn;</tspan><tspan x="794" dy="26">sửa nếu cần rồi duyệt</tspan></text>
+  <text x="794" y="1527" class="small" fill="#15803d">HUMAN BOUNDARY • SV</text>
+
+  <text x="1144" y="1415" class="step">6. GHI &amp; NHẮC VIỆC</text>
+  <text x="1144" y="1453" class="body"><tspan x="1144">Cập nhật lịch tập trung</tspan><tspan x="1144" dy="26">+ tạo reminder</tspan></text>
+  <text x="1144" y="1527" class="small">RULE • có audit log</text>
+
+  <rect x="70" y="1385" width="625" height="170" rx="18" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
+  <text x="96" y="1425" class="step" fill="#9a3412">FALLBACK / ROLLBACK</text>
+  <text x="96" y="1462" class="body"><tspan x="96">Thiếu quyền, độ tin cậy thấp hoặc xung đột</tspan><tspan x="96" dy="27">→ không ghi lịch; đưa vào hàng chờ để sinh viên</tspan><tspan x="96" dy="27">mở nguồn gốc và nhập/sửa thủ công.</tspan></text>
+  <text x="96" y="1542" class="small">Có lịch sử, hoàn tác được; AI fail → Rule + nhập tay.</text>
+
+  <!-- LEGEND -->
+  <text x="55" y="1710" class="section-meta">CHÚ THÍCH</text>
+  <rect x="205" y="1688" width="28" height="28" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="245" y="1710" class="legend">Rule / connector</text>
+  <rect x="455" y="1688" width="28" height="28" rx="6" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="495" y="1710" class="legend">AI</text>
+  <rect x="590" y="1688" width="28" height="28" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="630" y="1710" class="legend">Human boundary</text>
+  <rect x="845" y="1688" width="28" height="28" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="885" y="1710" class="legend">Bottleneck</text>
+  <rect x="1055" y="1688" width="28" height="28" rx="6" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+  <text x="1095" y="1710" class="legend">Hậu quả / fallback</text>
+
+  <text x="55" y="1780" class="small">* Thời gian theo bước là giả định vận hành để kiểm chứng.</text>
+  <text x="55" y="1810" class="small">Baseline hiện có: khoảng 10 phút/ngày. Mục tiêu pilot: ≤ 3 phút/ngày, 0 deadline bị bỏ sót.</text>
+</svg>
